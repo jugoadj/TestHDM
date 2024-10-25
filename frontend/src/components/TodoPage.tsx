@@ -80,9 +80,26 @@ const TodoPage = () => {
   }, []);
 
   return (
-    <Container>
-      <Box display="flex" justifyContent="center" mt={5}>
-        <Typography variant="h2">HDM Todo List</Typography>
+    <Container >
+      <Box
+        display="flex"
+        justifyContent="center"
+        alignItems="center"
+        mt={5}
+        p={2}
+        sx={{
+          backgroundColor: '#063865',
+          color: '#01B0BD',
+          borderRadius: '8px',
+          boxShadow: '0 4px 12px rgba(0, 0, 0, 0.2)',
+        }}
+      >
+        <Box display="flex" alignItems="center" gap={2}>
+          <img src="../../public/assets/images/hdm.png" alt="Logo" style={{ width: '60px', height: '40px' }} />
+          <Typography variant="h4" fontWeight="bold">
+            HDM Todo List
+          </Typography>
+        </Box>
       </Box>
 
       <Box justifyContent="center" mt={5} flexDirection="column">

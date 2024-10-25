@@ -14,10 +14,10 @@
 
 
 <table>
-    <tr>
+    <>
         <td><img src="./frontend/public/assets/images/snipped.png" alt="Image 4" style="width: 100%; max-width: 200px; height: auto;"></td>
         
-    </tr>
+    </>
    
         
 </table>

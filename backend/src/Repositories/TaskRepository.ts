@@ -19,13 +19,11 @@ export default class TaskRepository {
   }
 
   async save(data: Prisma.XOR<Prisma.TaskCreateInput, Prisma.TaskUncheckedCreateInput>): Promise<Task> {
-    // Création d'une nouvelle tâche si aucun id n'est fourni
     if (!data.id) {
       return this.prisma.task.create({
         data,
       });
     } else {
-      // Si un id est fourni, il pourrait s'agir d'une mise à jour
       return this.prisma.task.update({
         where: { id: data.id },
         data,

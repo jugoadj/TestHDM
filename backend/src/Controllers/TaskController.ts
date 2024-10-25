@@ -36,13 +36,10 @@ export default class TaskController {
 
   @Patch('/tasks/:id')
   async update(@Param('id') id: string, @Body() dto: SaveTaskDto) {
-    // Créer une instance du SaveTaskUseCase
     const saveTaskUseCase = await this.useCaseFactory.create(SaveTaskUseCase);
     
-    // Ajoutez l'ID au DTO
     const taskToUpdate = { ...dto, id: Number(id) };
     
-    // Appeler la méthode handle pour mettre à jour la tâche
     const updatedTask = await saveTaskUseCase.handle(taskToUpdate);
     
     return {

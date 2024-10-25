@@ -42,7 +42,7 @@ const TodoPage = () => {
 
     await api.post('/tasks', { name: newTaskName });
     handleFetchTasks();
-    setNewTaskName(""); // Réinitialiser le champ de saisie
+    setNewTaskName(""); 
   };
 
   const handleEdit = (task: Task) => {

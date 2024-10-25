@@ -1,4 +1,4 @@
-# <img src="./frontend/public/assets/images/favicon.png" alt="Image 5" style="width: 100%; max-width: 200px; height: auto;"> HDM test - ToDo List
+# <img src="./frontend/public/assets/images/favicon.png" alt="Image 5" style="width: 40px;  height: 30px"> HDM test - ToDo List
 
 
 ## 📑 Main Features

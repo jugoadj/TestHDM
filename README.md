@@ -1,4 +1,4 @@
-# 🏥 HDM test - ToDo List
+# <img src="./frontend/public/assets/images/favicon.png" alt="Image 5" style="width: 100%; max-width: 200px; height: auto;"> HDM test - ToDo List
 
 
 ## 📑 Main Features
@@ -16,8 +16,7 @@
 <table>
     <tr>
         <td><img src="./frontend/public/assets/images/snipped.png" alt="Image 4" style="width: 100%; max-width: 200px; height: auto;"></td>
-        <td><img src="./frontend/public/assets/images/favicon.png" alt="Image 5" style="width: 100%; max-width: 200px; height: auto;"></td>
-        <td>
+        
     </tr>
    
         
